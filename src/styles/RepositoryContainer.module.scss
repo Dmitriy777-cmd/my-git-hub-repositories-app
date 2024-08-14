@@ -1,0 +1,44 @@
+@import '~bootstrap/scss/bootstrap';
+
+.repository__text {
+  position: absolute;
+  max-width: 435px;
+  top: 104px;
+  left: 20px;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.87);
+
+  // Медиазапросы для адаптации стилей
+  @media (max-width: 1200px) {
+    font-size: 42px;
+    top: 80px;
+    left: 10px;
+  }
+
+  @media (max-width: 992px) {
+    font-size: 36px;
+    top: 70px;
+    left: 5px;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 30px;
+    top: 60px;
+    left: 0;
+  }
+
+  @media (max-width: 576px) {
+    font-size: 24px;
+    top: 50px;
+    left: 5px;
+  }
+
+  @media (min-width: 360px) {
+    font-size: 24px;
+    top: 90px;
+    left: 20px;
+  }
+}
